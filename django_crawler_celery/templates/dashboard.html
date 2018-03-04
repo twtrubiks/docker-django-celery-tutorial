@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load bootstrap3 %}
+
+{% block title %}
+    dasshboard
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-3">
+            <button type="button" data-dismiss="modal" class="btn btn-primary" id="start-celery">start crawler github</button>
+        </div>
+        <div class="col-md-3">
+            <span class="label label-success" id="check-label">result</span>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <!-- datatables -->
+    <table id="datatables" class="table table-hover">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>task_id</th>
+            <th>status</th>
+            <th>date_done</th>
+            <th>download</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tbody>
+        {% for result in results %}
+            <tr>
+                <th>{{ result.id }}</th>
+                <th>{{ result.task_id }}</th>
+                <th>{{ result.status }}</th>
+                <th>{{ result.date_done }}</th>
+                <th>
+                    {% if result.status == 'SUCCESS' %}
+                        <a href="media/github-repos-{{ result.task_id }}.csv" class="btn btn-primary" role="button">download</a>
+                    {% endif %}
+                </th>
+            </tr>
+        {% endfor %}
+        </tbody>
+        </tfoot>
+    </table>
+
+{% endblock %}

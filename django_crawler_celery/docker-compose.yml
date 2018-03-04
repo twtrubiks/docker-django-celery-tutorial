@@ -1,0 +1,31 @@
+version: '3'
+services:
+
+    rabbitmq:
+      image:  rabbitmq:3.7.3-management
+      environment:
+        RABBITMQ_DEFAULT_USER: celery 
+        RABBITMQ_DEFAULT_PASS: password123  
+        RABBITMQ_DEFAULT_VHOST: my_vhost
+      ports:
+        - "5672:5672"
+        - "15672:15672"
+
+    migration_and_run_worker:
+      build: .
+      command: bash -c "python manage.py migrate django_celery_results && celery -A django_crawler_celery worker -l info"
+      volumes:
+        - .:/django_crawler_celery
+      depends_on:
+        - rabbitmq
+
+    app:
+      build: .
+      command: bash -c "python manage.py runserver 0.0.0.0:8000"
+      restart: always
+      ports:
+        - "8000:8000"
+      volumes:
+        - .:/django_crawler_celery
+      depends_on:
+        - rabbitmq

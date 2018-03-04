@@ -1,0 +1,101 @@
+name,full_name,url,description
+awesome-python,vinta/awesome-python,https://github.com/vinta/awesome-python,"A curated list of awesome Python frameworks, libraries, software and resources"
+youtube-dl,rg3/youtube-dl,https://github.com/rg3/youtube-dl,Command-line program to download videos from YouTube.com and other video sites
+httpie,jakubroztocil/httpie,https://github.com/jakubroztocil/httpie,"Modern command line HTTP client – user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc.  https://httpie.org"
+thefuck,nvbn/thefuck,https://github.com/nvbn/thefuck,Magnificent app which corrects your previous console command.
+public-apis,toddmotto/public-apis,https://github.com/toddmotto/public-apis,A collective list of public JSON APIs for use in web development.
+flask,pallets/flask,https://github.com/pallets/flask,The Python micro framework for building web applications.
+django,django/django,https://github.com/django/django,The Web framework for perfectionists with deadlines.
+awesome-machine-learning,josephmisiti/awesome-machine-learning,https://github.com/josephmisiti/awesome-machine-learning,"A curated list of awesome Machine Learning frameworks, libraries and software."
+requests,requests/requests,https://github.com/requests/requests,Python HTTP Requests for Humans™ ✨🍰✨
+models,tensorflow/models,https://github.com/tensorflow/models,Models and examples built with TensorFlow
+ansible,ansible/ansible,https://github.com/ansible/ansible,"Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems."
+keras,keras-team/keras,https://github.com/keras-team/keras,Deep Learning for humans
+scikit-learn,scikit-learn/scikit-learn,https://github.com/scikit-learn/scikit-learn,scikit-learn: machine learning in Python
+scrapy,scrapy/scrapy,https://github.com/scrapy/scrapy,"Scrapy, a fast high-level web crawling & scraping framework for Python."
+system-design-primer,donnemartin/system-design-primer,https://github.com/donnemartin/system-design-primer,Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+shadowsocks,shadowsocks/shadowsocks,https://github.com/shadowsocks/shadowsocks,
+big-list-of-naughty-strings,minimaxir/big-list-of-naughty-strings,https://github.com/minimaxir/big-list-of-naughty-strings,The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.
+certbot,certbot/certbot,https://github.com/certbot/certbot,Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.
+XX-Net,XX-net/XX-Net,https://github.com/XX-net/XX-Net,a web proxy tool
+incubator-superset,apache/incubator-superset,https://github.com/apache/incubator-superset,"Apache Superset (incubating) is a modern, enterprise-ready business intelligence web application"
+you-get,soimort/you-get,https://github.com/soimort/you-get,:arrow_double_down: Dumb downloader that scrapes the web
+CppCoreGuidelines,isocpp/CppCoreGuidelines,https://github.com/isocpp/CppCoreGuidelines,"The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++"
+cpython,python/cpython,https://github.com/python/cpython,The Python programming language
+Deep-Learning-Papers-Reading-Roadmap,songrotek/Deep-Learning-Papers-Reading-Roadmap,https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap,Deep Learning papers reading roadmap for anyone who are eager to learn this amazing tech!
+YouCompleteMe,Valloric/YouCompleteMe,https://github.com/Valloric/YouCompleteMe,A code-completion engine for Vim
+sentry,getsentry/sentry,https://github.com/getsentry/sentry,Sentry is a cross-platform crash reporting and aggregation platform.
+tornado,tornadoweb/tornado,https://github.com/tornadoweb/tornado,"Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
+python-patterns,faif/python-patterns,https://github.com/faif/python-patterns,A collection of design patterns/idioms in Python
+reddit,reddit-archive/reddit,https://github.com/reddit-archive/reddit,historical code from reddit.com
+wechat_jump_game,wangshub/wechat_jump_game,https://github.com/wangshub/wechat_jump_game,python 微信《跳一跳》辅助
+incubator-mxnet,apache/incubator-mxnet,https://github.com/apache/incubator-mxnet,"Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more"
+pandas,pandas-dev/pandas,https://github.com/pandas-dev/pandas,"Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more"
+home-assistant,home-assistant/home-assistant,https://github.com/home-assistant/home-assistant,:house_with_garden: Open-source home automation platform running on Python 3
+macOS-Security-and-Privacy-Guide,drduh/macOS-Security-and-Privacy-Guide,https://github.com/drduh/macOS-Security-and-Privacy-Guide,A practical guide to securing macOS.
+pytorch,pytorch/pytorch,https://github.com/pytorch/pytorch,Tensors and Dynamic neural networks in Python  with strong GPU acceleration
+ipython,ipython/ipython,https://github.com/ipython/ipython,"Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc."
+interactive-coding-challenges,donnemartin/interactive-coding-challenges,https://github.com/donnemartin/interactive-coding-challenges,Interactive Python coding interview challenges (algorithms and data structures).  Includes Anki flashcards.
+source-code-pro,adobe-fonts/source-code-pro,https://github.com/adobe-fonts/source-code-pro,Monospaced font family for user interface and coding environments
+jieba,fxsjy/jieba,https://github.com/fxsjy/jieba,结巴中文分词
+Detectron,facebookresearch/Detectron,https://github.com/facebookresearch/Detectron,"FAIR's research platform for object detection research, implementing popular algorithms like Mask R-CNN and RetinaNet."
+compose,docker/compose,https://github.com/docker/compose,Define and run multi-container applications with Docker
+data-science-ipython-notebooks,donnemartin/data-science-ipython-notebooks,https://github.com/donnemartin/data-science-ipython-notebooks,"Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines."
+face_recognition,ageitgey/face_recognition,https://github.com/ageitgey/face_recognition,The world's simplest facial recognition api for Python and the command line
+ZeroNet,HelloZeroNet/ZeroNet,https://github.com/HelloZeroNet/ZeroNet,ZeroNet - Decentralized websites using Bitcoin crypto and BitTorrent network
+localstack,localstack/localstack,https://github.com/localstack/localstack,💻  A fully functional local AWS cloud stack. Develop and test your cloud apps offline!
+pyspider,binux/pyspider,https://github.com/binux/pyspider,A Powerful Spider(Web Crawler) System in Python.
+sqlmap,sqlmapproject/sqlmap,https://github.com/sqlmapproject/sqlmap,Automatic SQL injection and database takeover tool
+gym,openai/gym,https://github.com/openai/gym,A toolkit for developing and comparing reinforcement learning algorithms.
+algorithms,keon/algorithms,https://github.com/keon/algorithms,Minimal examples of data structures and algorithms in Python
+material-theme,equinusocio/material-theme,https://github.com/equinusocio/material-theme,"Material Theme, the most epic theme for Sublime Text 3 by Mattia Astorino"
+mitmproxy,mitmproxy/mitmproxy,https://github.com/mitmproxy/mitmproxy,An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+django-rest-framework,encode/django-rest-framework,https://github.com/encode/django-rest-framework,Web APIs for Django.
+fabric,fabric/fabric,https://github.com/fabric/fabric,"Simple, Pythonic remote execution and deployment."
+glances,nicolargo/glances,https://github.com/nicolargo/glances,Glances an Eye on your system. A top/htop alternative.
+ItChat,littlecodersh/ItChat,https://github.com/littlecodersh/ItChat,A complete and graceful API for Wechat. 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。
+pipenv,pypa/pipenv,https://github.com/pypa/pipenv, Python Development Workflow for Humans.
+sshuttle,apenwarr/sshuttle,https://github.com/apenwarr/sshuttle,Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
+magenta,tensorflow/magenta,https://github.com/tensorflow/magenta,Magenta: Music and Art Generation with Machine Intelligence
+odoo,odoo/odoo,https://github.com/odoo/odoo,Odoo. Open Source Apps To Grow Your Business.
+celery,celery/celery,https://github.com/celery/celery,Distributed Task Queue (development branch)
+Awesome-Linux-Software,luongvo209/Awesome-Linux-Software,https://github.com/luongvo209/Awesome-Linux-Software,"🐧 A list of awesome applications, software, tools and other materials for Linux distros."
+luigi,spotify/luigi,https://github.com/spotify/luigi,"Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. "
+python-fire,google/python-fire,https://github.com/google/python-fire,Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+sanic,channelcat/sanic,https://github.com/channelcat/sanic,Async Python 3.5+ web server that's written to go fast
+RocAlphaGo,Rochester-NRT/RocAlphaGo,https://github.com/Rochester-NRT/RocAlphaGo,"An independent, student-led replication of DeepMind's 2016 Nature publication, ""Mastering the game of Go with deep neural networks and tree search"" (Nature 529, 484-489, 28 Jan 2016), details of which can be found on their website https://deepmind.com/publications.html."
+pix2code,tonybeltramelli/pix2code,https://github.com/tonybeltramelli/pix2code,pix2code: Generating Code from a Graphical User Interface Screenshot
+powerline,powerline/powerline,https://github.com/powerline/powerline,"Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile."
+salt,saltstack/salt,https://github.com/saltstack/salt,Software to automate the management and configuration of any infrastructure or application at scale. Get access to the Salt software package repository here: 
+redash,getredash/redash,https://github.com/getredash/redash,"Make Your Company Data Driven. Connect to any data source, easily visualize and share your data."
+spaCy,explosion/spaCy,https://github.com/explosion/spaCy,💫 Industrial-strength Natural Language Processing (NLP) with Python and Cython
+neural-doodle,alexjc/neural-doodle,https://github.com/alexjc/neural-doodle,"Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one image to another, perform example-based upscaling, but wait... there's more! (An implementation of Semantic Style Transfer.)"
+hosts,StevenBlack/hosts,https://github.com/StevenBlack/hosts,"Extending and consolidating hosts files from several well-curated sources like adaway.org, mvps.org, malwaredomainlist.com, someonewhocares.org, and potentially others.  You can optionally invoke extensions to block additional sites by category. "
+bitcoinbook,bitcoinbook/bitcoinbook,https://github.com/bitcoinbook/bitcoinbook,Mastering Bitcoin 2nd Edition - Programming the Open Blockchain
+Theano,Theano/Theano,https://github.com/Theano/Theano,"Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation."
+iTerm2-Color-Schemes,mbadolato/iTerm2-Color-Schemes,https://github.com/mbadolato/iTerm2-Color-Schemes,"Over 175 terminal color schemes/themes for iTerm/iTerm2 (with ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remina, Termite, XFCE, Tilda, and Terminator)"
+ML-From-Scratch,eriklindernoren/ML-From-Scratch,https://github.com/eriklindernoren/ML-From-Scratch,Machine Learning From Scratch. Bare bones Python implementations of Machine Learning models and algorithms with a focus on transparency and accessibility. Aims to cover everything from Data Mining to Deep Learning.
+neural-enhance,alexjc/neural-enhance,https://github.com/alexjc/neural-enhance,Super Resolution for images using deep learning.
+pelican,getpelican/pelican,https://github.com/getpelican/pelican,Static site generator that supports Markdown and reST syntax. Powered by Python.
+tflearn,tflearn/tflearn,https://github.com/tflearn/tflearn,Deep learning library featuring a higher-level API for TensorFlow.
+nginx-proxy,jwilder/nginx-proxy,https://github.com/jwilder/nginx-proxy,Automated nginx proxy for Docker containers using docker-gen
+magic-wormhole,warner/magic-wormhole,https://github.com/warner/magic-wormhole,"get things from one computer to another, safely"
+incubator-airflow,apache/incubator-airflow,https://github.com/apache/incubator-airflow,Apache Airflow (Incubating)
+algo,trailofbits/algo,https://github.com/trailofbits/algo,Set up a personal IPSEC VPN in the cloud
+bokeh,bokeh/bokeh,https://github.com/bokeh/bokeh,Interactive Web Plotting for Python
+docker_practice,yeasy/docker_practice,https://github.com/yeasy/docker_practice,"Learn and understand Docker technologies, with real DevOps practice!"
+Mailpile,mailpile/Mailpile,https://github.com/mailpile/Mailpile,"A free & open modern, fast email client with user-friendly encryption and privacy features"
+kivy,kivy/kivy,https://github.com/kivy/kivy,"Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS"
+beets,beetbox/beets,https://github.com/beetbox/beets,music library manager and MusicBrainz tagger
+mailinabox,mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox,"Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box."
+chinese-poetry,chinese-poetry/chinese-poetry,https://github.com/chinese-poetry/chinese-poetry,"最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。  "
+locust,locustio/locust,https://github.com/locustio/locust,Scalable user load testing tool written in Python
+mackup,lra/mackup,https://github.com/lra/mackup,Keep your application settings in sync (OS X/Linux)
+sovereign,sovereign/sovereign,https://github.com/sovereign/sovereign,"A set of Ansible playbooks to build and maintain your own private cloud: email, calendar, contacts, file sync, IRC bouncer, VPN, and more."
+matplotlib,matplotlib/matplotlib,https://github.com/matplotlib/matplotlib,matplotlib: plotting with Python
+yapf,google/yapf,https://github.com/google/yapf,A formatter for Python files
+http-prompt,eliangcs/http-prompt,https://github.com/eliangcs/http-prompt,HTTPie + prompt_toolkit = an interactive command-line HTTP client featuring autocomplete and syntax highlighting
+universe,openai/universe,https://github.com/openai/universe,"Universe: a software platform for measuring and training an AI's general intelligence across the world's supply of games, websites and other applications."
+chisel,facebook/chisel,https://github.com/facebook/chisel,Chisel is a collection of LLDB commands to assist debugging iOS apps.
+MLAlgorithms,rushter/MLAlgorithms,https://github.com/rushter/MLAlgorithms,Minimal and clean examples of machine learning algorithms
+zipline,quantopian/zipline,https://github.com/quantopian/zipline,"Zipline, a Pythonic Algorithmic Trading Library"
