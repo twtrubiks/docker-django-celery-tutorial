@@ -2,11 +2,11 @@
 
  docker-django-celery-tutorial 基本教學  📝
 
-* [Youtube Tutorial Part1 - Docker 安裝 RabbitMQ](xxx)
+* [Youtube Tutorial Part1 - Docker 安裝 RabbitMQ](https://youtu.be/W4ktp3EjFXY)
 
-* [Youtube Tutorial Part2 - Python 結合 Celery ( 使用 Docker )](xxxx)
+* [Youtube Tutorial Part2 - Python 結合 Celery ( 使用 Docker )](https://youtu.be/B8Qq9KxEjZc)
 
-* [Youtube Tutorial Part3 - 實戰 Django + Celery ( 使用 Docker )](xxxx)
+* [Youtube Tutorial Part3 - 實戰 Django + Celery ( 使用 Docker )](https://youtu.be/3dwRrJml2NQ)
 
 之前其實也寫過相關的教學，可參考 [django-celery-tutorial](https://github.com/twtrubiks/django-celery-tutorial#django-celery-tutorial)，
 
@@ -38,7 +38,7 @@ Celery [v4.1.0](https://github.com/celery/celery/releases/tag/v4.1.0) 不支援 
 
 ## Docker 安裝 RabbitMQ
 
-* [Youtube Tutorial Part1 - Docker 安裝 RabbitMQ](xxx)
+* [Youtube Tutorial Part1 - Docker 安裝 RabbitMQ](https://youtu.be/W4ktp3EjFXY)
 
 詳細教學可參考 [Docker RabbitMQ](https://hub.docker.com/_/rabbitmq/) ，請直接執行下列的指令，
 
@@ -65,7 +65,7 @@ docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=c
 
 建議搭配影片看比較好理解 :blush:
 
-* [Youtube Tutorial Part2 - Python 結合 Celery ( 使用 Docker )](xxxx)
+* [Youtube Tutorial Part2 - Python 結合 Celery ( 使用 Docker )](https://youtu.be/B8Qq9KxEjZc)
 
 ### Celery
 
@@ -330,7 +330,7 @@ beat_schedule = {
 
 建議搭配影片看比較好理解 :blush:
 
-* [Youtube Tutorial Part3 - 實戰 Django + Celery ( 使用 Docker )](xxxx)
+* [Youtube Tutorial Part3 - 實戰 Django + Celery ( 使用 Docker )](https://youtu.be/3dwRrJml2NQ)
 
 在 [這篇](https://github.com/twtrubiks/django-celery-tutorial) 的教學中，我們使用了發送 e-mail 當做例子，但在這邊，我們換個例子，模擬爬蟲（透過 github api 爬 repos），
 
