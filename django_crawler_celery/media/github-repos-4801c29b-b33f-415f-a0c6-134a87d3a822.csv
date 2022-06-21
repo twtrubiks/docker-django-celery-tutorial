@@ -1,0 +1,101 @@
+name,full_name,url,description
+public-apis,public-apis/public-apis,https://github.com/public-apis/public-apis,A collective list of free APIs
+system-design-primer,donnemartin/system-design-primer,https://github.com/donnemartin/system-design-primer,Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+awesome-python,vinta/awesome-python,https://github.com/vinta/awesome-python,"A curated list of awesome Python frameworks, libraries, software and resources"
+Python-100-Days,jackfrued/Python-100-Days,https://github.com/jackfrued/Python-100-Days,Python - 100天从新手到大师
+models,tensorflow/models,https://github.com/tensorflow/models,Models and examples built with TensorFlow
+thefuck,nvbn/thefuck,https://github.com/nvbn/thefuck,Magnificent app which corrects your previous console command.
+django,django/django,https://github.com/django/django,The Web framework for perfectionists with deadlines.
+flask,pallets/flask,https://github.com/pallets/flask,The Python micro framework for building web applications.
+HelloGitHub,521xueweihan/HelloGitHub,https://github.com/521xueweihan/HelloGitHub,":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub."
+keras,keras-team/keras,https://github.com/keras-team/keras,Deep Learning for humans
+awesome-machine-learning,josephmisiti/awesome-machine-learning,https://github.com/josephmisiti/awesome-machine-learning,"A curated list of awesome Machine Learning frameworks, libraries and software."
+scikit-learn,scikit-learn/scikit-learn,https://github.com/scikit-learn/scikit-learn,scikit-learn: machine learning in Python
+requests,psf/requests,https://github.com/psf/requests,"A simple, yet elegant, HTTP library."
+fastapi,tiangolo/fastapi,https://github.com/tiangolo/fastapi,"FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+face_recognition,ageitgey/face_recognition,https://github.com/ageitgey/face_recognition,The world's simplest facial recognition api for Python and the command line
+scrapy,scrapy/scrapy,https://github.com/scrapy/scrapy,"Scrapy, a fast high-level web crawling & scraping framework for Python."
+localstack,localstack/localstack,https://github.com/localstack/localstack,💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!
+faceswap,deepfakes/faceswap,https://github.com/deepfakes/faceswap,Deepfakes Software For All
+PayloadsAllTheThings,swisskyrepo/PayloadsAllTheThings,https://github.com/swisskyrepo/PayloadsAllTheThings,A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+rich,Textualize/rich,https://github.com/Textualize/rich,Rich is a Python library for rich text and beautiful formatting in the terminal.
+Real-Time-Voice-Cloning,CorentinJ/Real-Time-Voice-Cloning,https://github.com/CorentinJ/Real-Time-Voice-Cloning,Clone a voice in 5 seconds to generate arbitrary speech in real-time
+openpilot,commaai/openpilot,https://github.com/commaai/openpilot,openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for over 150 supported car makes and models.
+CppCoreGuidelines,isocpp/CppCoreGuidelines,https://github.com/isocpp/CppCoreGuidelines,"The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++"
+python-patterns,faif/python-patterns,https://github.com/faif/python-patterns,A collection of design patterns/idioms in Python
+ailearning,apachecn/ailearning,https://github.com/apachecn/ailearning,AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2
+DeepFaceLab,iperov/DeepFaceLab,https://github.com/iperov/DeepFaceLab,DeepFaceLab is the leading software for creating deepfakes.
+XX-Net,XX-net/XX-Net,https://github.com/XX-net/XX-Net,A proxy tool to bypass GFW.
+sentry,getsentry/sentry,https://github.com/getsentry/sentry,"Sentry is cross-platform application monitoring, with a focus on error reporting."
+wtfpython,satwikkansal/wtfpython,https://github.com/satwikkansal/wtfpython,What the f*ck Python? 😱
+cheat.sh,chubin/cheat.sh,https://github.com/chubin/cheat.sh,the only cheat sheet you need
+python-cheatsheet,gto76/python-cheatsheet,https://github.com/gto76/python-cheatsheet,Comprehensive Python Cheatsheet
+certbot,certbot/certbot,https://github.com/certbot/certbot,Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.
+black,psf/black,https://github.com/psf/black,The uncompromising Python code formatter
+mitmproxy,mitmproxy/mitmproxy,https://github.com/mitmproxy/mitmproxy,An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+yolov5,ultralytics/yolov5,https://github.com/ultralytics/yolov5,YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite
+linux-insides,0xAX/linux-insides,https://github.com/0xAX/linux-insides,A little bit about a linux kernel
+airflow,apache/airflow,https://github.com/apache/airflow,"Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+HanLP,hankcs/HanLP,https://github.com/hankcs/HanLP,中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理
+devops-exercises,bregman-arie/devops-exercises,https://github.com/bregman-arie/devops-exercises,"Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions"
+Python,geekcomputers/Python,https://github.com/geekcomputers/Python,My Python Examples
+Detectron,facebookresearch/Detectron,https://github.com/facebookresearch/Detectron,"FAIR's research platform for object detection research, implementing popular algorithms like Mask R-CNN and RetinaNet."
+YouCompleteMe,ycm-core/YouCompleteMe,https://github.com/ycm-core/YouCompleteMe,A code-completion engine for Vim
+sqlmap,sqlmapproject/sqlmap,https://github.com/sqlmapproject/sqlmap,Automatic SQL injection and database takeover tool
+data-science-ipython-notebooks,donnemartin/data-science-ipython-notebooks,https://github.com/donnemartin/data-science-ipython-notebooks,"Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines."
+pipenv,pypa/pipenv,https://github.com/pypa/pipenv, Python Development Workflow for Humans.
+Depix,beurtschipper/Depix,https://github.com/beurtschipper/Depix,Recovers passwords from pixelized screenshots
+ItChat,littlecodersh/ItChat,https://github.com/littlecodersh/ItChat,A complete and graceful API for Wechat. 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。
+tqdm,tqdm/tqdm,https://github.com/tqdm/tqdm,"A Fast, Extensible Progress Bar for Python and CLI"
+httpie,httpie/httpie,https://github.com/httpie/httpie,"As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie"
+MockingBird,babysor/MockingBird,https://github.com/babysor/MockingBird,🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time
+Mask_RCNN,matterport/Mask_RCNN,https://github.com/matterport/Mask_RCNN,Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow
+redash,getredash/redash,https://github.com/getredash/redash,"Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data."
+ray,ray-project/ray,https://github.com/ray-project/ray,"An open source framework that provides a simple, universal API for building distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library."
+hosts,StevenBlack/hosts,https://github.com/StevenBlack/hosts,"🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories."
+copilot-docs,github/copilot-docs,https://github.com/github/copilot-docs,Documentation for GitHub Copilot
+cascadia-code,microsoft/cascadia-code,https://github.com/microsoft/cascadia-code,"This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal."
+mmdetection,open-mmlab/mmdetection,https://github.com/open-mmlab/mmdetection,OpenMMLab Detection Toolbox and Benchmark
+spleeter,deezer/spleeter,https://github.com/deezer/spleeter,Deezer source separation library including pretrained models.
+GFPGAN,TencentARC/GFPGAN,https://github.com/TencentARC/GFPGAN,GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.
+pytorch-image-models,rwightman/pytorch-image-models,https://github.com/rwightman/pytorch-image-models,"PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more"
+python-telegram-bot,python-telegram-bot/python-telegram-bot,https://github.com/python-telegram-bot/python-telegram-bot,We have made you a wrapper you can't refuse
+lightning,Lightning-AI/lightning,https://github.com/Lightning-AI/lightning,Build high-performance AI models with PyTorch Lightning (organized PyTorch). Deploy models with Lightning Apps (organized Python to build end-to-end ML systems).
+wttr.in,chubin/wttr.in,https://github.com/chubin/wttr.in,:partly_sunny: The right way to check the weather
+jax,google/jax,https://github.com/google/jax,"Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more"
+examples,pytorch/examples,https://github.com/pytorch/examples,"A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc."
+Paddle,PaddlePaddle/Paddle,https://github.com/PaddlePaddle/Paddle,PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）
+freqtrade,freqtrade/freqtrade,https://github.com/freqtrade/freqtrade,"Free, open source crypto trading bot"
+hackingtool,Z4nzu/hackingtool,https://github.com/Z4nzu/hackingtool,ALL IN ONE Hacking Tool For Hackers
+chinese-programmer-wrong-pronunciation,shimohq/chinese-programmer-wrong-pronunciation,https://github.com/shimohq/chinese-programmer-wrong-pronunciation,中国程序员容易发音错误的单词
+labelImg,tzutalin/labelImg,https://github.com/tzutalin/labelImg,🖍️ LabelImg is a graphical image annotation tool and label object bounding boxes in images
+fairseq,facebookresearch/fairseq,https://github.com/facebookresearch/fairseq,Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+dash,plotly/dash,https://github.com/plotly/dash,"Analytical Web Apps for Python, R, Julia, and Jupyter. No JavaScript Required."
+bokeh,bokeh/bokeh,https://github.com/bokeh/bokeh,"Interactive Data Visualization in the browser, from  Python"
+reddit,reddit-archive/reddit,https://github.com/reddit-archive/reddit,historical code from reddit.com
+nginx-proxy,nginx-proxy/nginx-proxy,https://github.com/nginx-proxy/nginx-proxy,Automated nginx proxy for Docker containers using docker-gen
+zulip,zulip/zulip,https://github.com/zulip/zulip,Zulip server and web app—powerful open source team chat
+proxy_pool,jhao104/proxy_pool,https://github.com/jhao104/proxy_pool,Python爬虫代理IP池(proxy pool)
+zipline,quantopian/zipline,https://github.com/quantopian/zipline,"Zipline, a Pythonic Algorithmic Trading Library"
+DeOldify,jantic/DeOldify,https://github.com/jantic/DeOldify,A Deep Learning based project for colorizing and restoring old images (and video!)
+EasyOCR,JaidedAI/EasyOCR,https://github.com/JaidedAI/EasyOCR,"Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc."
+kitty,kovidgoyal/kitty,https://github.com/kovidgoyal/kitty,"Cross-platform, fast, feature-rich, GPU based terminal"
+python-spider,Jack-Cherish/python-spider,https://github.com/Jack-Cherish/python-spider,:rainbow:Python3网络爬虫实战：淘宝、京东、网易云、B站、12306、抖音、笔趣阁、漫画小说下载、音乐电影下载等
+jina,jina-ai/jina,https://github.com/jina-ai/jina,Build cross-modal and multi-modal applications on the cloud
+pytorch_geometric,pyg-team/pytorch_geometric,https://github.com/pyg-team/pytorch_geometric,Graph Neural Network Library for PyTorch
+ungoogled-chromium,ungoogled-software/ungoogled-chromium,https://github.com/ungoogled-software/ungoogled-chromium,"Google Chromium, sans integration with Google"
+magic-wormhole,magic-wormhole/magic-wormhole,https://github.com/magic-wormhole/magic-wormhole,"get things from one computer to another, safely"
+kivy,kivy/kivy,https://github.com/kivy/kivy,"Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS"
+ddia,Vonng/ddia,https://github.com/Vonng/ddia,《Designing Data-Intensive Application》DDIA中文翻译
+prophet,facebook/prophet,https://github.com/facebook/prophet,Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
+mkdocs,mkdocs/mkdocs,https://github.com/mkdocs/mkdocs,Project documentation with Markdown.
+awesome-python-login-model,Kr1s77/awesome-python-login-model,https://github.com/Kr1s77/awesome-python-login-model,😮python模拟登陆一些大型网站，还有一些简单的爬虫，希望对你们有所帮助❤️，如果喜欢记得给个star哦🌟
+faker,joke2k/faker,https://github.com/joke2k/faker,Faker is a Python package that generates fake data for you.
+OSX-KVM,kholia/OSX-KVM,https://github.com/kholia/OSX-KVM,Run macOS on QEMU/KVM. With OpenCore + Big Sur + Monterey support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
+autojump,wting/autojump,https://github.com/wting/autojump,A cd command that learns - easily navigate directories from the command line
+ArchiveBox,ArchiveBox/ArchiveBox,https://github.com/ArchiveBox/ArchiveBox,"🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..."
+neural-networks-and-deep-learning,mnielsen/neural-networks-and-deep-learning,https://github.com/mnielsen/neural-networks-and-deep-learning,"Code samples for my book ""Neural Networks and Deep Learning"""
+recommenders,microsoft/recommenders,https://github.com/microsoft/recommenders,Best Practices on Recommendation Systems
+twint,twintproject/twint,https://github.com/twintproject/twint,"An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations."
+learn-python,trekhleb/learn-python,https://github.com/trekhleb/learn-python,📚 Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.
+yapf,google/yapf,https://github.com/google/yapf,A formatter for Python files

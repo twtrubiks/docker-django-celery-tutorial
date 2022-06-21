@@ -18,9 +18,7 @@
 
 所以這篇教大家用 docker 建立 Celery，如果你看過 [這篇](https://github.com/twtrubiks/django-celery-tutorial#broker-tutorial) 的介紹，
 
-你會發現安裝環境很麻煩，尤其是在 Windows 上，更慘的是，
-
-Celery [v4.1.0](https://github.com/celery/celery/releases/tag/v4.1.0) 不支援 Windows:sob:
+你會發現安裝環境很麻煩，尤其是在 Windows 上,
 
 所以這篇會全部使用 docker 來完成:smirk:
 
@@ -43,15 +41,14 @@ Celery [v4.1.0](https://github.com/celery/celery/releases/tag/v4.1.0) 不支援 
 詳細教學可參考 [Docker RabbitMQ](https://hub.docker.com/_/rabbitmq/) ，請直接執行下列的指令，
 
 ```cmd
-docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=celery -e RABBITMQ_DEFAULT_PASS=password123  -e RABBITMQ_DEFAULT_VHOST=my_vhost -p 5672:5672 -p 15672:15672 rabbitmq:3.7.3-management
+docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=celery -e RABBITMQ_DEFAULT_PASS=password123  -e RABBITMQ_DEFAULT_VHOST=my_vhost -p 5672:5672 -p 15672:15672 rabbitmq:3.10.5-management
 ```
 
 比較特別的是，`RABBITMQ_DEFAULT_VHOST` 這個東西，如果大家有興趣，可以 google **RabbitMQ virtual hosts**
 
-進一步的去了解 :grinning:（ 或是有機會我有研究會再補上來 ），這邊我是安裝 rabbitmq:3.7.3-management 的版本，
+進一步的去了解 :grinning:（ 或是有機會我有研究會再補上來 ）
 
-所以有網頁可以觀看，可直接瀏覽
-[http://localhost:15672/](http://localhost:15672/)
+可直接瀏覽 [http://0.0.0.0:15672/](http://0.0.0.0:15672/)
 
 ![alt tag](https://i.imgur.com/kunrVdl.png)
 
@@ -190,6 +187,19 @@ add.delay(2,2).get()
 
 ![alt tag](https://i.imgur.com/cunFhuo.png)
 
+如果想要取回 result, 可以透過以下方式,
+
+```python
+from celery.result import AsyncResult
+from celery_app import app
+
+res = AsyncResult('4c709f53-fc81-4ae9-830d-f15198dd4102', app=app)
+>>> res.state
+'SUCCESS'
+>>> res.get()
+4
+```
+
 Celery 還有很多指令，像是 Chains , Groups , Chords 之類的，基本上就用我這個範例，
 
 你就可以把其他的指令都玩玩看，可參考 [Canvas: Designing Work-flows](http://docs.celeryproject.org/en/latest/userguide/canvas.html)，
@@ -269,11 +279,9 @@ Celery 的官方文件我覺得真的不錯，可以多看 :satisfied:
 
 建議可以閱讀官方的文件，可參考 [Periodic Tasks](http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html)。
 
-Celery 的 schedule 真的還不錯，可以很簡單的設定 schedule，不知道大家有沒有聽過  [Linux](https://www.linux.com/) 上的 Cron Job
+Celery 的 schedule 真的還不錯，可以很簡單的設定 schedule，
 
-（不知道快 google 阿～），他其實功能和 Cron Job 差不多，但你不需要懂太多 [Linux](https://www.linux.com/) 上的設定 ( 雖然我認為
-
-[Linux](https://www.linux.com/) 有機會還是要懂一下 )，就可以完成幾乎一樣的功能。
+它類似 Linux 上的 [Linux 指令教學-Crontab](https://github.com/twtrubiks/linux-note/tree/master/crontab-tutorual),
 
 我們接著執行剛剛的範例，這次我們要再多啟動一個 celery beat，他是一個 schedule，請先進入 docker 容器中，
 
@@ -288,14 +296,6 @@ celery -A celery_app beat
 ![alt tag](https://i.imgur.com/jtKLNX7.png)
 
 你會發現多了一個 celery-demo/[celerybeat-schedule](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/celery-demo/celerybeat-schedule.db) ，這個檔案是儲存了一些 schedule 的資料，
-
-接著一樣啟動 worker
-
-```cmd
-celery -A celery_app worker -l info
-```
-
-上面這段指令，我已經包進去 celery-demo/[docker-compose.yml](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/celery-demo/docker-compose.yml) 的 command 了( 這邊只是說明一下 )，
 
 還記得剛剛前面設定的東西嗎 :grinning:
 
@@ -492,7 +492,7 @@ CELERY_RESULT_BACKEND = 'django-db'
 記得 import `TaskResult`，可參考下方程式碼
 
 ```python
-from django_celery_results.models import  TaskResult
+from django_celery_results.models import TaskResult
 TaskResult.objects.all()
 ```
 
@@ -508,7 +508,7 @@ TaskResult 的 model 可參考 [models.py](https://github.com/celery/django-cele
 docker-compose up
 ```
 
-直接瀏覽 [http://localhost:8000/](http://localhost:8000/)，
+直接瀏覽 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)，
 
 ![alt tag](https://i.imgur.com/LyV40it.png)
 
@@ -565,7 +565,7 @@ task 執行完成後，可在 datatable 中看到
 
 ## 執行環境
 
-* Python 3.6.2
+* Python 3.8
 
 ## Reference
 

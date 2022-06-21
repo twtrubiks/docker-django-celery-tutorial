@@ -7,7 +7,6 @@ from django_celery_results.models import TaskResult
 
 from tutorial.tasks import chain_tasks
 
-
 # Create your views here.
 
 def dashboard(request):

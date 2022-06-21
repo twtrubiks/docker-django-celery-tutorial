@@ -1,9 +1,11 @@
-from django.conf.urls import url
+from django.urls import path
 
-from tutorial import views
+from . import views
 
 urlpatterns = [
+    # ex: /
+    path('', views.dashboard, name='dashboard'),
+    # ex: /task/
+    path('task/',views.task_use_celery),
 
-    url(r'^$', views.dashboard, name='dashboard'),
-    url(r'^task/', views.task_use_celery),
 ]

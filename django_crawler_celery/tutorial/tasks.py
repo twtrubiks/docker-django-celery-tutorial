@@ -1,5 +1,3 @@
-from __future__ import absolute_import, unicode_literals
-
 import time
 
 import requests
@@ -46,7 +44,7 @@ def crawler_repos(language, per_page, page):
     return items
 
 
-@shared_task
+@shared_task(ignore_result=False)
 def build_report_task(results, task_id):
     rows = [
         [repo.get('name'), repo.get('full_name'), repo.get('html_url'), repo.get('description')]
