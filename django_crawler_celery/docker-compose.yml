@@ -12,14 +12,6 @@ services:
         - "5672:5672"
         - "15672:15672"
 
-    migration_and_run_worker:
-      build: .
-      command: bash -c "python manage.py migrate django_celery_results && celery -A django_crawler_celery worker -l info"
-      volumes:
-        - .:/django_crawler_celery
-      depends_on:
-        - rabbitmq
-
     app:
       build: .
       command: bash -c "python manage.py runserver 0.0.0.0:8000"
@@ -29,4 +21,28 @@ services:
       volumes:
         - .:/django_crawler_celery
       depends_on:
+        - rabbitmq
+
+    migration_and_run_worker:
+      build: .
+      command: bash -c "python manage.py migrate django_celery_results && celery -A django_crawler_celery worker -l info"
+      volumes:
+        - .:/django_crawler_celery
+      depends_on:
+        - rabbitmq
+
+    flower:
+      # image: mher/flower
+      build: ./flower_service
+      command: celery -A django_crawler_celery flower --persistent=True -l info
+      volumes:
+        - .:/django_crawler_celery
+      working_dir: /django_crawler_celery
+      ports:
+        - 5555:5555
+      environment:
+        - CELERY_BROKER_URL=amqp://celery:password123@rabbitmq:5672/my_vhost
+        - FLOWER_DATA_DIR=/django_crawler_celery
+      depends_on:
+        - migration_and_run_worker
         - rabbitmq

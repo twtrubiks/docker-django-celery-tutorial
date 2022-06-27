@@ -92,7 +92,7 @@ docker-compose up
 
 以下我將簡單介紹  [celery-demo](https://github.com/twtrubiks/docker-django-celery-tutorial/tree/master/celery-demo)  裡面的檔案，
 
-celery_app/[__init__.py](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/celery-demo/celery_app/__init__.py)
+celery_app/[`__init__.py`](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/celery-demo/celery_app/__init__.py)
 
 ```python
 from celery import Celery
@@ -147,7 +147,7 @@ beat_schedule = {
 
 `beat_schedule` 這部份的設定則是 schedule，schedule 後面我會再進一步介紹。
 
-Celery 可以設定的參數非常多，詳細可參考 [configuration-and-defaults](http://docs.celeryproject.org/en/latest/userguide/configuration.html#configuration-and-defaults)。
+Celery 可以設定的參數非常多，詳細可參考 [configuration-and-defaults](https://docs.celeryq.dev/en/latest/userguide/configuration.html#configuration-and-defaults)。
 
 接著來介紹 celery_app/[tasks.py](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/celery-demo/celery_app/tasks.py)
 
@@ -267,9 +267,19 @@ Celery 的官方文件我覺得真的不錯，可以多看 :satisfied:
 
 這邊有一個裝飾器 `@app.task(ignore_result=True)` ，目的主要是忽略結果不寫入 [results.sqlite](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/celery-demo/results.sqlite)
 
-，如果你的結果沒有很重要，可以加上這個裝飾器，避免不必要的開銷，可參考官方的說明
+，如果你的結果沒有很重要，可以加上這個裝飾器，避免不必要的開銷，
 
- [Ignore results you don't want](http://docs.celeryproject.org/en/latest/userguide/tasks.html#ignore-results-you-don-t-want) 。
+可參考官方的說明 [Ignore results you don't want](https://docs.celeryq.dev/en/latest/userguide/tasks.html#ignore-results-you-don-t-want)
+
+### Flower - Celery monitoring tool
+
+在 [監控 Celery](https://github.com/twtrubiks/django-celery-tutorial#%E7%9B%A3%E6%8E%A7-celery) 這邊有提過了,
+
+這裡我把它包成 docker, [flower_service/Dockerfile](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/django_crawler_celery/flower_service/Dockerfile) 是參考下面的 Dockerfile 重新自己 build 一個,
+
+[https://github.com/mher/flower/blob/master/Dockerfile](https://github.com/mher/flower/blob/master/Dockerfile)
+
+直接瀏覽 [http://localhost:5555/](http://localhost:5555/) 即可.
 
 還記得我們有一個 schedule 還沒有講嘛:question:
 
@@ -277,19 +287,19 @@ Celery 的官方文件我覺得真的不錯，可以多看 :satisfied:
 
 ### Periodic Tasks
 
-建議可以閱讀官方的文件，可參考 [Periodic Tasks](http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html)。
+建議可以閱讀官方的文件，可參考 [Periodic Tasks](https://docs.celeryq.dev/en/latest/userguide/periodic-tasks.html)。
 
 Celery 的 schedule 真的還不錯，可以很簡單的設定 schedule，
 
 它類似 Linux 上的 [Linux 指令教學-Crontab](https://github.com/twtrubiks/linux-note/tree/master/crontab-tutorual),
 
-我們接著執行剛剛的範例，這次我們要再多啟動一個 celery beat，他是一個 schedule，請先進入 docker 容器中，
-
-並且執行以下指令啟動 celery beat，
+celery beat 指令如下 ,
 
 ```cmd
 celery -A celery_app beat
 ```
+
+上面這段指令，用 docker 幫大家包成 celery-demo/[docker-compose.yml](https://github.com/twtrubiks/docker-django-celery-tutorial/blob/master/celery-demo/docker-compose.yml) 了，
 
 ![alt tag](https://i.imgur.com/rqTK3bB.png)
 
@@ -324,7 +334,7 @@ beat_schedule = {
 
 這個要注意時區，我們在前面有設定時區為 `timezone = 'Asia/Taipei'`，更多的 schedule
 
-設定方法可參考 [crontab-schedules](http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html#crontab-schedules)。
+設定方法可參考 [crontab-schedules](https://docs.celeryq.dev/en/latest/userguide/periodic-tasks.html#crontab-schedules)
 
 ## 實戰 Django + Celery
 
@@ -502,7 +512,7 @@ TaskResult 的 model 可參考 [models.py](https://github.com/celery/django-cele
 
 ## 執行畫面
 
-這邊簡單 demo 一下 Django + Celery 的成果，
+這邊簡單 demo 一下 Django + Celery + Flower 的成果，
 
 ```cmd
 docker-compose up
@@ -557,6 +567,8 @@ task 執行完成後，可在 datatable 中看到
 
 ![alt tag](https://i.imgur.com/EyjMnEN.png)
 
+也可以到 flower 中查看, 瀏覽 [http://localhost:5555/](http://localhost:5555/)
+
 ## 後記
 
 這次帶大家用 docker 建立 Celery 環境，相信大家一定覺得很方便，也解決了很多
@@ -571,6 +583,7 @@ task 執行完成後，可在 datatable 中看到
 
 * [Django](https://www.djangoproject.com/)
 * [Celery](http://celery.readthedocs.io/en/latest/index.html)
+* [Flower](https://flower.readthedocs.io/en/latest/)
 
 ## Donation
 

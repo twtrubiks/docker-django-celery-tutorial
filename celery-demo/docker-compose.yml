@@ -20,3 +20,28 @@ services:
         - .:/celery_app
       depends_on:
         - rabbitmq
+
+    beat:
+      build: .
+      command: bash -c "celery -A celery_app beat -l info"
+      restart: always
+      volumes:
+        - .:/celery_app
+      depends_on:
+        - app
+        - rabbitmq
+
+    flower:
+      image: mher/flower
+      command: celery -A celery_app flower --persistent=True -l info
+      volumes:
+        - .:/celery_app
+      working_dir: /celery_app
+      ports:
+        - 5555:5555
+      environment:
+        - CELERY_BROKER_URL=amqp://celery:password123@rabbitmq:5672/my_vhost
+        - FLOWER_DATA_DIR=/celery_app
+      depends_on:
+        - app
+        - rabbitmq

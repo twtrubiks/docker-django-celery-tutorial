@@ -3,4 +3,4 @@ django-celery-results==2.3.1
 celery==5.2.7
 django-bootstrap3==21.2
 requests==2.28.0
-
+flower==1.0.0
